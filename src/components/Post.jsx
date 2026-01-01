@@ -14,7 +14,7 @@ function Post({ title, description, reactions, tags, user_id, id }) {
         <p className={styles.description}>{description}</p>
 
         <div className={styles.meta}>
-          <p>{JSON.stringify(reactions)}</p>
+          <p>👍 {reactions.likes} | 👎 {reactions.dislikes}</p>
           <span className={styles.tags}>{tags.join(", ")}</span>
         </div>
 

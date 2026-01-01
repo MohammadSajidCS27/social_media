@@ -12,7 +12,7 @@ function App() {
         <Sidebar />
         <div className="main-content">
           <Header /> 
-          <Outlet /> 
+          <Outlet className="outlet-class" /> 
           <Footer />
         </div>
       </div>
